@@ -5,7 +5,7 @@ import Separator from "./Separator";
 
 const Hero = () => {
   return (
-    <section className="h-[80vh] xl:h-screen relative text-white">
+    <section className="h-[80vh]  xl:h-[120vh] relative text-white">
         {/* overlay */}
         <div className="bg-hero_overlay absolute w-full h-full z-10 bg-primary/[0.93]"> </div>
         {/* video */}
@@ -20,10 +20,10 @@ const Hero = () => {
                 className="flex-1 flex flex-col text-center justify-center items-center xl:pb-12 gap-10 h-full">
                 {/* badge & h1 */}
                 <div className="flex flex-col items-center">
-                    <Badge containerStyles="hidden xl:flex xl:w-[180px] xl:h-[180px]" />
-                    <h1 className="h1 text-white">
-                        MADGER<span className="text-accent"> Coffee</span>
-                    </h1>
+                    <Badge containerStyles="hidden xl:flex xl:w-[150px] xl:h-[150px]" />
+                    <h2 className="h2 text-white ">
+                        MADGER<span className="flex md:flex-col justify-center text-accent"> Coffee</span>
+                    </h2>
                 </div>
                 {/* Separator */} 
                 <Separator />

@@ -17,7 +17,7 @@ const OpeningHours = () => {
                 className="object-cover"
 
             />
-            <Badge containerStyles="w-[320px] h-[320px] absolute z-40" />
+            <Badge containerStyles="w-[200px] h-[200px] absolute z-40" />
         </div>
 
         {/* 2 */}
@@ -29,7 +29,7 @@ const OpeningHours = () => {
             <div className="z-20 flex flex-col items-center justify-center">
                 <h2 className="h2 text-white mb-4">Opening</h2>
                 <Separator bg="accent" />
-                <div className="mt-12 relative w-[300px] h-[220px] xl:w-[470px] xl:h-[280px]">
+                <div className="mt-12 relative w-[180px] h-[100px] xl:w-[350px] xl:h-[220px]">
                     <Image 
                         src="/assets/opening-hours/program-badge.svg"
                         fill
