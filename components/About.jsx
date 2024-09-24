@@ -54,21 +54,21 @@ const About = () => {
 
 
   return (
-    <section className="overflow-hidden bg-primary ">
+    <section className="overflow-hidden bg-primary">
         <div ref={scrollTriggerRef}>
             <div 
                 ref={scrollableSectionRef} 
-                className="h-screen w-[300vw] flex relative "
+                className="h-screen w-[300vw] flex relative"
             >
                 {data.map((item, index) => {
                     return (
-                        <div key={index} className="w-screen h-screen flex flex-col justify-center items-center relative ">
+                        <div key={index} className="w-screen h-screen flex flex-col justify-center items-center relative">
                             <div className="container mx-auto">
-                                <div className="flex gap-[30px] relative "> 
+                                <div className="flex gap-[30px] relative"> 
                                     {/* text */}
                                     <div className="flex-1 flex flex-col justify-center items-center">
                                         <Badge containerStyles="w-[120px] h-[120px]"/>
-                                        <div className="max-w-[500px] text-center">
+                                        <div className="max-w-[560px] text-center">
                                             {/* title */}
                                             <h2 className="h2 text-white mb-4">
                                                 <span className="mr-4">
